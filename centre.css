@@ -5,12 +5,12 @@
 
 .storySection {
     display: flex;
-    width: 100vw;
-
+    justify-content: center;
+    margin-right: 18%;
 }
 
 .story1 {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     width: 85px;
     height: 85px;
     margin-left: 190px;
@@ -149,8 +149,9 @@
 .postSection {
     height: 780px;
     width: 630px;
-    margin-left: 10%;
+    margin-left: 30vw;
     margin-top: 10px;
+    margin-right: 30vw;
 }
 
 .info {
@@ -257,17 +258,21 @@
 
 
 @media (max-width: 480px) {
-    .storySection {
-        height: 100px;
-        width: 900vw;
+    .postSection {
+        height: 780px;
+        width: 600px;
     }
 
     .storySection div {
-        width: 75px;
-        height: 75px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .storySection {
+        width: auto;
     }
 
     .story1 {
-        margin-left: 30px;
+        margin-left: 130px;
     }
 }
